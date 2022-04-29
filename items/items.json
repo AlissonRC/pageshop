@@ -1,0 +1,66 @@
+{
+  "camisas": [
+    {
+      "id": "camiseta1",
+      "descricao": "Camiseta básica",
+      "imagem": "../imagens/camiseta1.png",
+      "preco": 39.99
+    },
+    {
+      "id": "camiseta2",
+      "descricao": "Camiseta básica",
+      "imagem": "../imagens/camiseta2.png",
+      "preco": 39.99
+    },
+    {
+      "id": "camiseta3",
+      "descricao": "Camiseta básica",
+      "imagem": "../imagens/camiseta3.png",
+      "preco": 39.99
+    },
+    {
+      "id": "camiseta4",
+      "descricao": "Camiseta básica",
+      "imagem": "../imagens/camiseta4.png",
+      "preco": 39.99
+    },
+    {
+      "id": "camiseta5",
+      "descricao": "Camiseta básica",
+      "imagem": "../imagens/camiseta5.png",
+      "preco": 39.99
+    }
+  ],
+  "bermudas": [
+    {
+      "id": "ber1",
+      "descricao": "Bermuda básica",
+      "imagem": "../imagens/ber1.png",
+      "preco": 44.90
+    },
+    {
+      "id": "ber2",
+      "descricao": "Bermuda básica",
+      "imagem": "../imagens/ber2.png",
+      "preco": 44.90
+    },
+    {
+      "id": "ber3",
+      "descricao": "Bermuda básica",
+      "imagem": "../imagens/ber3.png",
+      "preco": 44.90
+    },
+    {
+      "id": "ber4",
+      "descricao": "Bermuda básica",
+      "imagem": "../imagens/ber4.png",
+      "preco": 44.90
+    },
+    {
+      "id": "ber5",
+      "descricao": "Bermuda básica",
+      "imagem": "../imagens/ber5.png",
+      "preco": 44.90
+    }
+  ]
+}

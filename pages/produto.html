@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="../styles/style.css" />
+    <link
+      rel="shortcut icon"
+      type="imagex/png"
+      href="../imagens/si.logocircle.png"
+    />
+    <title>Trabalho GA Produto</title>
+    <script src="../js/index.js" async></script>
+  </head>
+  <body id="produto">
+    <header class="header">
+      <div>
+        <a href="../pages/index.html"
+          ><img class="logo" src="../imagens/slimImports.png"
+        /></a>
+      </div>
+      <nav>
+        <ul class="menu">
+          <li><a class="menubutton" href="../pages/index.html">Home</a></li>
+          <li>
+            <a class="menubutton" href="../pages/produtos.html">Produtos</a>
+          </li>
+          <li><a class="menubutton" href="../pages/sobre.html">Sobre</a></li>
+          <li>
+            <a class="menubutton" href="../pages/contato.html">Contato</a>
+          </li>
+          <li>
+            <div style="position: relative;">
+              <a href="../pages/carrinho.html"
+                ><img class="carrinho" src="../imagens/carrinho.png" />
+              </a>
+              <span id="carrinhoItemsCount" class="carrinhoItemsCount"></span>
+            </div>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="container-product-details">
+        <div id="product-image" class="product-image"></div>
+        <div id="produtoDetails" class="productDetails">
+          <div id="descricao"></div>
+          <div id="preco"></div>
+          <div id="productDetailsChooser" class="productDetailsChooser">
+            <div id="productSize">        <label for="size">Tamanho:</label>
+              <select name="size" id="cars">
+                <option value="P">P</option>
+                <option value="M">M</option>
+                <option value="G">G</option>
+                <option value="GG">GG</option>
+              </select> </div>
+              <div id="productColor">
+                <label for="color">Cor:</label>
+                <select name="color" id="cars">
+                  <option value="Preto">Preto</option>
+                  <option value="Branco">Branco</option>
+                  <option value="Vermelho">Vermelho</option>
+                  <option value="Azul">Azul</option>
+                </select> 
+              </div>
+          </div>
+        </div>
+       
+        <div id="buttons">
+          <button class="button-produto" onclick="addToCart()">
+            Add to Cart
+          </button>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
