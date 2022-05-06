@@ -147,7 +147,6 @@ async function retrieveCarrinhoItemDetails() {
 
     liCarrinho += `<div class="div-items-cart">    
     <li class="li-item-cart">Descrição:${temp.descricao}|Tamanho: ${itemSize}|Cor: ${temp.color} ----- Preço:R$ ${temp.preco}</li>
-    <li class="li-item-cart">Descrição:${temp.descricao}|Tamanho: ${itemSize}|Cor: ${temp.color} ----- Preço:R$ ${temp.preco}</li>
       <a id = ${itemUUID} class="remove-item-link" onclick="DeleteItemCart(this.id)"><i class="fa fa-trash-o"></i><span class="span-remove-item"> Remover produto</span></a>
     </div>`;
   }
